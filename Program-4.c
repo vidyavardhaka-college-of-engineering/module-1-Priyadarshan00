@@ -3,7 +3,11 @@
 #include <stdio.h>
 int main() {
     int dividend, divisor, quotient, remainder;
+<<<<<<< HEAD
    printf("Enter dividend and Divisor ");
+=======
+    printf("Enter dividend and Divisor ");
+>>>>>>> origin/master
     scanf("%d%d", &dividend,&divisor);  //correct the code
    
     // Computes quotient
@@ -12,7 +16,12 @@ int main() {
     // Computes remainder
     remainder = dividend % divisor; // correct the code
 
+<<<<<<< HEAD
     printf("Quotient =%d ", quotient);  // correct the code
     printf("Remainder =%d ", remainder);  // correct the code
+=======
+    printf("Quotient = %d", quotient);  // correct the code
+    printf("Remainder = %d", remainder);  // correct the code
+>>>>>>> origin/master
     return 0;
 }
